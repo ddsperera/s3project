@@ -1,0 +1,88 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* View requests button styling */
+#getrequest {
+    background-color: #28a745;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Header row styling */
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Success message styling */
+#requestSaved {
+    color: #28a745;
+    font-weight: bold;
+}
